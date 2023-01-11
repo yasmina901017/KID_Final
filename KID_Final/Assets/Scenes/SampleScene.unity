@@ -1566,10 +1566,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2eb9d0ac591522245afe96806d5e2cf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataDialogue: {fileID: 11400000, guid: f267aa5d3095b934aaf01d8d6ee7cfe3, type: 2}
+  dataDialogue: {fileID: 11400000, guid: 0264a5e95eb4e5b4f86c9cd1fd21474c, type: 2}
   onDialogueFinish:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8499490578869840532}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   propActive: {fileID: 0}
   dataDialogueActive: {fileID: 0}
   onDialogueFinishAfterActive:
@@ -19316,6 +19328,7 @@ GameObject:
   - component: {fileID: 1177697847}
   - component: {fileID: 1177697846}
   - component: {fileID: 1177697845}
+  - component: {fileID: 1177697849}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -19401,6 +19414,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1177697849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177697844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eb9d0ac591522245afe96806d5e2cf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataDialogue: {fileID: 11400000, guid: 38bddd3788a4e864583c9fe445c919d6, type: 2}
+  onDialogueFinish:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 111442764}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  propActive: {fileID: 0}
+  dataDialogueActive: {fileID: 0}
+  onDialogueFinishAfterActive:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1182316005
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36397,6 +36443,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9133178044417093678}
+  - component: {fileID: 9133178044417093680}
+  - component: {fileID: 9133178044417093679}
   m_Layer: 0
   m_Name: womengostfbx
   m_TagString: Untagged
@@ -36555,3 +36603,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -22.877, z: 0}
+--- !u!114 &9133178044417093679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8499490578869840532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eb9d0ac591522245afe96806d5e2cf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataDialogue: {fileID: 11400000, guid: 161c65fa9ed0f6b4da3a070255f912d8, type: 2}
+  onDialogueFinish:
+    m_PersistentCalls:
+      m_Calls: []
+  propActive: {fileID: 0}
+  dataDialogueActive: {fileID: 0}
+  onDialogueFinishAfterActive:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!65 &9133178044417093680
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8499490578869840532}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 125.92, y: 136.1, z: 180.7}
+  m_Center: {x: -0.000010933915, y: 0, z: -1.7988628}
