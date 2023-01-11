@@ -32439,7 +32439,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &951543825600050870
 MeshCollider:
@@ -34122,7 +34122,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848267875541945348}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 83f9f824499de9c43a2ce622b9309213, type: 2}
   m_CullingMode: 0
@@ -34154,7 +34154,19 @@ MonoBehaviour:
   dataDialogueActive: {fileID: 11400000, guid: b0cb414d5b130fc448216231d10988df, type: 2}
   onDialogueFinishAfterActive:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7977264301557958392}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!23 &7979791056251190449
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34355,7 +34367,19 @@ MonoBehaviour:
   dataDialogue: {fileID: 11400000, guid: 0415a8a894bccfb4ebfef26cfc919c67, type: 2}
   onDialogueFinish:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8407270382344122532}
+        m_TargetAssemblyTypeName: yatzu.InteractableSystem, Assembly-CSharp
+        m_MethodName: HiddenObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   propActive: {fileID: 0}
   dataDialogueActive: {fileID: 0}
   onDialogueFinishAfterActive:
