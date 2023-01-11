@@ -1585,8 +1585,12 @@ PrefabInstance:
       value: 269
       objectReference: {fileID: 0}
     - target: {fileID: 4787433090118449791, guid: 5b41ebfbc9bf5b9418934ea9e42e2d7d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.6967
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787433090118449791, guid: 5b41ebfbc9bf5b9418934ea9e42e2d7d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.66
+      value: 2.826
       objectReference: {fileID: 0}
     - target: {fileID: 4787433090118449791, guid: 5b41ebfbc9bf5b9418934ea9e42e2d7d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1594,7 +1598,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4787433090118449791, guid: 5b41ebfbc9bf5b9418934ea9e42e2d7d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.59
+      value: 18.593
       objectReference: {fileID: 0}
     - target: {fileID: 4787433090118449791, guid: 5b41ebfbc9bf5b9418934ea9e42e2d7d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17705,8 +17709,12 @@ PrefabInstance:
       value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 4787433090118449791, guid: 5b41ebfbc9bf5b9418934ea9e42e2d7d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.2572
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787433090118449791, guid: 5b41ebfbc9bf5b9418934ea9e42e2d7d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.877
+      value: 3.035
       objectReference: {fileID: 0}
     - target: {fileID: 4787433090118449791, guid: 5b41ebfbc9bf5b9418934ea9e42e2d7d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -17714,7 +17722,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4787433090118449791, guid: 5b41ebfbc9bf5b9418934ea9e42e2d7d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.862
+      value: 3.865
       objectReference: {fileID: 0}
     - target: {fileID: 4787433090118449791, guid: 5b41ebfbc9bf5b9418934ea9e42e2d7d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -33971,8 +33979,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.4949003, y: 2.02902, z: 1.4580382}
-  m_Center: {x: 0.04644108, y: -0.67300475, z: 0.003193557}
+  m_Size: {x: 0.752338, y: 2.02902, z: 1.4580382}
+  m_Center: {x: 0.17516018, y: -0.67300475, z: 0.003193557}
 --- !u!114 &7977264300666531188
 MonoBehaviour:
   m_ObjectHideFlags: 0
