@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a0b144975f8b9245b27ab327edc9077, type: 3}
   m_Name: RRRRRRRRR
   m_EditorClassIdentifier: 
-  dialogueName: "\u6211"
+  dialogueName: "\u65E5\u4E0A\u52A0\u5948"
   dialogueContents:
   - "\u5440!!!!!!!!!?\n\u525B\u525B...\u90A3\u662F\u751A\u9EBC...?"
   - "\u597D\u50CF\u662F\u500B\u96D9\u982D\u5B30\u5152...???"
